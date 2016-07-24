@@ -24,12 +24,10 @@ export default class RepoList extends React.Component {
                     rep:response.data.items,
                   })
     }.bind(this))
-    
-
   }
 
   render (){
-    
+
     if(this.state.rep == null){
       // console.log("loading")
       return  <div style={{marginTop: "200px", width:"64px",marginRight:"auto",marginLeft:"auto"}}><Loading type='spokes' color='black'/></div>
@@ -39,20 +37,20 @@ export default class RepoList extends React.Component {
           {this.state.rep.map(function(item){
             return(<div><Repo data={item} /></div>)
           })}
-    
+
 
 
         </div>
       )
     }
-      
 
-        
-      
+
+
+
 
 
      // return arr
-      
-    
+
+
   }
 }

@@ -16,17 +16,16 @@ export default class Navbar extends React.Component {
 			        <span className="icon-bar"></span>
 			        <span className="icon-bar"></span>
 			      </button>
-			  
+
 			    </div>
 
 			    <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul className="nav navbar-nav">
 			        <li onClick={this.handleClick}><Link to="/"> 首页</Link></li>
-			        <li><Link to="cui">git排名</Link></li>
-			        <li><Link to="hello">其他</Link></li>
+			        <li><Link to="cui">Javascript Star排名</Link></li>
 			      </ul>
-			    
-			      
+
+
 			    </div>
 			  </div>
 		  </nav>
